@@ -4,6 +4,7 @@
   "description": "A simple microkernel implementation with Twitter-like functionality.",
   "homepage": "https://phonetworks.org",
   "license": "MIT",
+  "minimum-stability" : "dev",
   "authors": [
         {
             "name": "Emre Sokullu",
