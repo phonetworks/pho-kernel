@@ -12,9 +12,15 @@ The default pho-kernel requires:
 
 ## Install
 
-The recommended way to install pho-kernel is through composer.
+The recommended way to install pho-kernel is through composer. 
 
-```composer require phonetworks/pho-kernel```
+Let's say, you want to install a kernel under a directory called ```test-dir```. Here's what you type in the terminal:
+
+```shell
+composer create-project -s "dev" phonetworks/pho-kernel test-dir
+```
+
+This will install pho-kernel as well as its dependencies. Once installed, read/edit the bootstrapper scripts [play.php](https://github.com/phonetworks/pho-kernel/blob/master/play.php) and [play-custom.php](https://github.com/phonetworks/pho-kernel/blob/master/play-custom.php).
 
 ## Getting Started
 
