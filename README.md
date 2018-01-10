@@ -7,6 +7,7 @@ A simple microkernel implementation with Twitter-like functionality.
 The default pho-kernel requires:
 
 * Redis server
+* Neo4j server
 * PHP 7.1+
 * [Composer](https://getcomposer.org/)
 
@@ -20,15 +21,18 @@ Let's say, you want to install a kernel under a directory called ```test-dir```.
 composer create-project -s "dev" phonetworks/pho-kernel test-dir
 ```
 
-This will install pho-kernel as well as its dependencies. Once installed, read/edit the bootstrapper scripts [play.php](https://github.com/phonetworks/pho-kernel/blob/master/play.php) and [play-custom.php](https://github.com/phonetworks/pho-kernel/blob/master/play-custom.php).
+This will install pho-kernel as well as its dependencies. Once installed, read/edit the bootstrapper script [kernel.php](https://github.com/phonetworks/pho-kernel/blob/master/kernel.php). The sole purpose of the bootstrapper script is 
+
+* to set up the servers (e.g. Neo4J, Redis, loggers etc) given environment envirables set in ```.env``` file.
+* provide you with the ```$kernel``` which you can use to interact with your graph, or embed in another environment (e.g. [REST Server](https://github.com/phonetworks/pho-server-rest)) for further functionality.
 
 ## Getting Started
 
-1. Make sure your .env file is functional; addressing Redis properly.
+1. Make sure your .env file is functional; addressing your servers properly.
 2. Run ```php -a``` on your terminal to switch to PHP shell. Then,
 
 ```php
-include("play.php"); // this will set it up.
+include("kernel.php"); // this will set it up.
 
 echo $founder; // will dump the founder's ID.
 echo $graph; // will dump the graph's ID.
@@ -49,7 +53,7 @@ var_dump($founder->getPosts());
 
 If you are running pho-kernel on a custom set of compiled pgql files, make sure:
 
-1. The ```default_objects``` variables in Kernel configs (as shown by ```$configs``` in [play.php](https://github.com/phonetworks/pho-kernel/blob/master/play.php)) have a proper set of "graph" and "user" classes set.
+1. The ```default_objects``` variables in Kernel configs (as shown by ```$configs``` in [kernel.php](https://github.com/phonetworks/pho-kernel/blob/master/kernel.php)) have a proper set of "graph" and "user" classes set.
 2. Before booting up the kernel, a custom founder object is initialized and passed as an argument to the ```boot``` method.
 
 ## License
