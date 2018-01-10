@@ -49,7 +49,26 @@ var_dump($new_user->getLikes());
 var_dump($founder->getPosts());
 ```
 
-## Customizing
+## Working with Custom Recipes
+
+If you'd like the kernel to run on a custom recipe, you must:
+
+1. Clone this repository. ```git clone https://github.com/phonetworks/pho-kernel```
+2. Change the [composer.json](https://github.com/phonetworks/pho-kernel/tree/master/composer.json) file and replace ```pho-recipes/basic``` with your custom recipe repo.
+3. Run ```composer install``` to finish up with dependencies.
+4. Follow the steps described in the "Getting Started" section.
+
+The [presets](https://github.com/phonetworks/pho-kernel/tree/master/presets) directory comes with custom composer.json files that you can copy/paste on the existing [one](https://github.com/phonetworks/pho-kernel/tree/master/composer.json). This could enable you to run a Facebook or Twitter clone in a few simple steps.
+
+However, if your goal is to run a completely custom recipe, then first of all, you need to:
+
+1. Form that recipe (possibly by cloning one of the existing ones in the https://github.com/pho-recipes repo).
+2. Make your recipe a composer package by uploading it to https://packagist.org
+3. Replace ```pho-recipes/basic``` with your custom recipe repo in [composer.json](https://github.com/phonetworks/pho-kernel/tree/master/composer.json)
+4. Run ```composer install``` to finish up with dependencies.
+5. Follow the steps described in the "Getting Started" section.
+
+## The kernel.php file
 
 If you are running pho-kernel on a custom set of compiled pgql files, make sure:
 
