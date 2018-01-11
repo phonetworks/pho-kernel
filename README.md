@@ -6,10 +6,29 @@ A simple microkernel implementation with Twitter-like functionality.
 
 The default pho-kernel requires:
 
-* Redis server
-* Neo4j server
-* PHP 7.1+
-* [Composer](https://getcomposer.org/)
+* [Redis server 4.0+](https://redis.io)
+* [Neo4j server 3.1+](https://neo4j.com)
+* [PHP 7.1+](https://php.net)
+* [Composer](https://getcomposer.org/) latest version
+
+You may also test pho-kernel by using [Vagrant](https://www.vagrantup.com/). Check out "Testing" for more information.
+
+## Testing
+
+Testing allows you to get a feel of pho-kernel without bloating your system with servers such as Redis and Neo4j. However, you would still need to have [Vagrant](https://www.vagrantup.com/) installed.
+
+Once you have Vagrant, just type in the following in the directory where pho-kernel is installed:
+
+```shell
+vagrant up
+vagrant ssh # this will open a new session, continue from there.
+cd /opt/pho-kernel
+composer install # this may take a while to operate
+php -a # this will also open a new session.
+include("kernel.php");
+```
+
+Now you can play with the kernel. Check out "Getting Started" for more information.
 
 ## Install
 
