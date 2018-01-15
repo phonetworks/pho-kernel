@@ -15,12 +15,12 @@
     ],
     "require": {
         "php":"^7.1",
-        "phonetworks/pho-microkernel": "^1.4.0",
+        "phonetworks/pho-microkernel": "^1.4",
         "pho-recipes/basic": "dev-master",
         "pho-adapters/storage-filesystem": "dev-master",
         "pho-adapters/database-redis": "dev-master",
         "pho-adapters/events-local": "dev-master",
         "pho-adapters/index-neo4j": "dev-master",
-	    "vlucas/phpdotenv": "^2.4"
+	"vlucas/phpdotenv": "^2.4"
     }
 }
