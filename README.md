@@ -23,6 +23,7 @@ Once you have Vagrant, just type in the following in the directory where pho-ker
 vagrant up
 vagrant ssh # this will open a new session, continue from there.
 cd /opt/pho-kernel
+yes | cp presets/basic ./composer.json
 composer install # this may take a while to operate
 php -a # this will also open a new session.
 include("kernel.php");
