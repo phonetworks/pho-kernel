@@ -16,7 +16,6 @@
     "require": {
         "php":"^7.1",
         "phonetworks/pho-microkernel": "^1.4",
-        "pho-recipes/basic": "dev-master",
         "pho-adapters/storage-filesystem": "dev-master",
         "pho-adapters/database-redis": "dev-master",
         "pho-adapters/events-local": "dev-master",
