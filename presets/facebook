@@ -5,6 +5,7 @@
   "homepage": "https://phonetworks.org",
   "license": "MIT",
   "minimum-stability" : "dev",
+  "prefer-stable": true,
   "authors": [
         {
             "name": "Emre Sokullu",
@@ -19,6 +20,7 @@
         "pho-adapters/storage-filesystem": "dev-master",
         "pho-adapters/database-redis": "dev-master",
         "pho-adapters/events-local": "dev-master",
-	    "vlucas/phpdotenv": "^2.4"
+	"pho-adapters/index-neo4j": "dev-master",
+	"vlucas/phpdotenv": "^2.4"
     }
 }
