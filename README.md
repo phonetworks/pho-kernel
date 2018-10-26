@@ -12,7 +12,7 @@ The default pho-kernel requires:
 
 You may also test pho-kernel by using [Vagrant](https://www.vagrantup.com/). Check out "Testing" for more information.
 
-Pho-Kernel used to depend on [Neo4j Server 3.1+](https://neo4j.com) for indexing. It no longer does. But you may still use it if you prefer more advanced Cypher queries. 
+Pho-Kernel used to depend on [Neo4j Server 3.1+](https://neo4j.com) for indexing. It no longer does as of version 3.0. But you may still use it if you prefer more advanced Cypher queries. 
 
 > If you will use Neo4J for indexing, make sure you change your .env
 > file to include INDEX_TYPE="neo4j" instead of INDEX_TYPE ="redis"
