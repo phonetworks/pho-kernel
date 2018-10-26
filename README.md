@@ -7,11 +7,15 @@ A simple microkernel implementation with Twitter-like functionality by default. 
 The default pho-kernel requires:
 
 * [Redis server 4.0+](https://redis.io)
-* [Neo4j server 3.1+](https://neo4j.com)
 * [PHP 7.1+](https://php.net)
 * [Composer](https://getcomposer.org/) latest version
 
 You may also test pho-kernel by using [Vagrant](https://www.vagrantup.com/). Check out "Testing" for more information.
+
+Pho-Kernel used to depend on [Neo4j Server 3.1+](https://neo4j.com) for indexing. It no longer does. But you may still use it if you prefer more advanced Cypher queries. 
+
+> If you will use Neo4J for indexing, make sure you change your .env
+> file to include INDEX_TYPE="neo4j" instead of INDEX_TYPE ="redis"
 
 ## Testing
 
@@ -45,6 +49,13 @@ This will install pho-kernel as well as its dependencies. Once installed, read/e
 
 * to set up the servers (e.g. Neo4J, Redis, loggers etc) given environment envirables set in ```.env``` file.
 * provide you with the ```$kernel``` which you can use to interact with your graph, or embed in another environment (e.g. [REST Server](https://github.com/phonetworks/pho-server-rest)) for further functionality.
+
+You will also need to set up a .env file to instruct the kernel about the services to use. A sample .env file is included as ```.env.example```. Just copy/paste it as .env to get started with the basics.
+
+```shell
+cp .env.example .env
+# vi .env # if necessary
+```
 
 ## Getting Started
 
