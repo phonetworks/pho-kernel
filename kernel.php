@@ -1,7 +1,7 @@
 <?php
 
 require __DIR__ . "/vendor/autoload.php";
-if(file_exists(__DIR__ . "/.compiled") {
+if(file_exists(__DIR__ . "/.compiled")) {
     foreach (glob(__DIR__ . "/.compiled/*.php") as $filename)
     {
         include $filename;
