@@ -1,4 +1,8 @@
-# Pho-Kernel
+<p align="center">
+  <img width="375" height="150" src="https://github.com/phonetworks/commons-php/raw/master/.github/cover-smaller.png">
+</p>
+
+# pho-kernel
 
 A simple microkernel implementation with Twitter-like functionality by default. You may change the functionality simply by copy/pasting a new recipe from the [presets](https://github.com/phonetworks/pho-kernel/tree/master/presets) directory or by your own means. Check out "Working with Custom Recipes" for more information.
 
