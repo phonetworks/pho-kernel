@@ -4,7 +4,7 @@
 
 # pho-kernel
 
-A simple microkernel implementation with Twitter-like functionality by default. You may change the functionality simply by copy/pasting a new recipe from the [presets](https://github.com/phonetworks/pho-kernel/tree/master/presets) directory. Check out "Working with Custom Recipes" for more information.
+A simple microkernel implementation with Twitter-like functionality by default. You may change the functionality simply by copy/pasting a new recipe from the [presets](https://github.com/phonetworks/pho-kernel/tree/master/presets) directory. Check out "Working with Custom Recipes" below the README file for more information.
 
 ## Requirements
 
