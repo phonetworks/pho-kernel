@@ -18,6 +18,7 @@
         "phonetworks/pho-microkernel": "dev-master",
         "pho-adapters/storage-filesystem": "dev-master",
         "pho-adapters/database-redis": "dev-master",
+        "pho-adapters/index-neo4j": "dev-master",
         "pho-adapters/events-local": "dev-master",
 	    "vlucas/phpdotenv": "^4.1"
     }
