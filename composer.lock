@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "239c08b103c7382421c0abf570ad65f5",
+    "content-hash": "ad10534ba254a4eadcd8380961d2c931",
     "packages": [
         {
             "name": "danielstjules/stringy",
@@ -120,16 +120,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.25.1",
+            "version": "1.25.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "70e65a5470a42cfec1a7da00d30edb6e617e8dcf"
+                "reference": "fa82921994db851a8becaf3787a9e73c5976b6f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/70e65a5470a42cfec1a7da00d30edb6e617e8dcf",
-                "reference": "70e65a5470a42cfec1a7da00d30edb6e617e8dcf",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/fa82921994db851a8becaf3787a9e73c5976b6f1",
+                "reference": "fa82921994db851a8becaf3787a9e73c5976b6f1",
                 "shasum": ""
             },
             "require": {
@@ -194,7 +194,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2019-09-06T13:49:17+00:00"
+            "time": "2019-12-20T14:15:16+00:00"
         },
         {
             "name": "pho-adapters/database-redis",
@@ -381,16 +381,16 @@
         },
         {
             "name": "phonetworks/pho-lib-dht",
-            "version": "1.1",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phonetworks/pho-lib-dht.git",
-                "reference": "e90922f3b656a90a16e1541042ded0789e19acac"
+                "reference": "7656a210d10b876b40e1047073df7c18c670efa0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phonetworks/pho-lib-dht/zipball/e90922f3b656a90a16e1541042ded0789e19acac",
-                "reference": "e90922f3b656a90a16e1541042ded0789e19acac",
+                "url": "https://api.github.com/repos/phonetworks/pho-lib-dht/zipball/7656a210d10b876b40e1047073df7c18c670efa0",
+                "reference": "7656a210d10b876b40e1047073df7c18c670efa0",
                 "shasum": ""
             },
             "require": {
@@ -425,7 +425,7 @@
             ],
             "description": "A PHP DHT specs and utilities",
             "homepage": "https://phonetworks.org",
-            "time": "2019-09-20T22:28:47+00:00"
+            "time": "2019-09-27T00:42:09+00:00"
         },
         {
             "name": "phonetworks/pho-lib-graph",
@@ -490,12 +490,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phonetworks/pho-microkernel.git",
-                "reference": "b2a49c0afc94f2f738754e420822cd2e4775e53d"
+                "reference": "5a6fdfa8b889cdf689b8d3e08e04c89f2fbd88b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phonetworks/pho-microkernel/zipball/b2a49c0afc94f2f738754e420822cd2e4775e53d",
-                "reference": "b2a49c0afc94f2f738754e420822cd2e4775e53d",
+                "url": "https://api.github.com/repos/phonetworks/pho-microkernel/zipball/5a6fdfa8b889cdf689b8d3e08e04c89f2fbd88b0",
+                "reference": "5a6fdfa8b889cdf689b8d3e08e04c89f2fbd88b0",
                 "shasum": ""
             },
             "require": {
@@ -505,7 +505,7 @@
                 "php": "^7.2",
                 "pimple/pimple": "^1.1",
                 "psr/log": "^1.0",
-                "vlucas/phpdotenv": "^2.4",
+                "vlucas/phpdotenv": "^4.1",
                 "webmozart/assert": "^1.2",
                 "zendframework/zend-config": "*"
             },
@@ -539,7 +539,62 @@
             ],
             "description": "Social-Enabled App Infrastructure",
             "homepage": "https://phonetworks.org",
-            "time": "2019-09-21T00:24:37+00:00"
+            "time": "2020-03-06T09:37:57+00:00"
+        },
+        {
+            "name": "phpoption/phpoption",
+            "version": "1.7.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/schmittjoh/php-option.git",
+                "reference": "77f7c4d2e65413aff5b5a8cc8b3caf7a28d81959"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/77f7c4d2e65413aff5b5a8cc8b3caf7a28d81959",
+                "reference": "77f7c4d2e65413aff5b5a8cc8b3caf7a28d81959",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.5.9 || ^7.0"
+            },
+            "require-dev": {
+                "bamarni/composer-bin-plugin": "^1.3",
+                "phpunit/phpunit": "^4.8.35 || ^5.0 || ^6.0 || ^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.7-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "PhpOption\\": "src/PhpOption/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Johannes M. Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                },
+                {
+                    "name": "Graham Campbell",
+                    "email": "graham@alt-three.com"
+                }
+            ],
+            "description": "Option Type for PHP",
+            "keywords": [
+                "language",
+                "option",
+                "php",
+                "type"
+            ],
+            "time": "2019-12-15T19:35:24+00:00"
         },
         {
             "name": "pimple/pimple",
@@ -688,16 +743,16 @@
         },
         {
             "name": "psr/log",
-            "version": "1.1.0",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd"
+                "reference": "446d54b4cb6bf489fc9d75f55843658e6f25d801"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
-                "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/446d54b4cb6bf489fc9d75f55843658e6f25d801",
+                "reference": "446d54b4cb6bf489fc9d75f55843658e6f25d801",
                 "shasum": ""
             },
             "require": {
@@ -706,7 +761,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-master": "1.1.x-dev"
                 }
             },
             "autoload": {
@@ -731,28 +786,28 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2018-11-20T15:27:04+00:00"
+            "time": "2019-11-01T11:05:21+00:00"
         },
         {
             "name": "sabre/event",
-            "version": "5.0.3",
+            "version": "5.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sabre-io/event.git",
-                "reference": "f5cf802d240df1257866d8813282b98aee3bc548"
+                "reference": "d00a17507af0e7544cfe17096372f5d733e3b276"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sabre-io/event/zipball/f5cf802d240df1257866d8813282b98aee3bc548",
-                "reference": "f5cf802d240df1257866d8813282b98aee3bc548",
+                "url": "https://api.github.com/repos/sabre-io/event/zipball/d00a17507af0e7544cfe17096372f5d733e3b276",
+                "reference": "d00a17507af0e7544cfe17096372f5d733e3b276",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.0"
+                "php": "^7.1"
             },
             "require-dev": {
-                "phpunit/phpunit": ">=6",
-                "sabre/cs": "~1.0.0"
+                "friendsofphp/php-cs-fixer": "~2.16.1",
+                "phpunit/phpunit": "^7 || ^8"
             },
             "type": "library",
             "autoload": {
@@ -772,9 +827,9 @@
             "authors": [
                 {
                     "name": "Evert Pot",
-                    "role": "Developer",
                     "email": "me@evertpot.com",
-                    "homepage": "http://evertpot.com/"
+                    "homepage": "http://evertpot.com/",
+                    "role": "Developer"
                 }
             ],
             "description": "sabre/event is a library for lightweight event-based programming",
@@ -791,20 +846,20 @@
                 "reactor",
                 "signal"
             ],
-            "time": "2018-03-05T13:55:47+00:00"
+            "time": "2020-01-31T18:52:29+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.12.0",
+            "version": "v1.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "550ebaac289296ce228a706d0867afc34687e3f4"
+                "reference": "fbdeaec0df06cf3d51c93de80c7eb76e271f5a38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/550ebaac289296ce228a706d0867afc34687e3f4",
-                "reference": "550ebaac289296ce228a706d0867afc34687e3f4",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/fbdeaec0df06cf3d51c93de80c7eb76e271f5a38",
+                "reference": "fbdeaec0df06cf3d51c93de80c7eb76e271f5a38",
                 "shasum": ""
             },
             "require": {
@@ -816,7 +871,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.12-dev"
+                    "dev-master": "1.14-dev"
                 }
             },
             "autoload": {
@@ -849,20 +904,20 @@
                 "polyfill",
                 "portable"
             ],
-            "time": "2019-08-06T08:03:45+00:00"
+            "time": "2020-01-13T11:15:53+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.12.0",
+            "version": "v1.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "b42a2f66e8f1b15ccf25652c3424265923eb4f17"
+                "reference": "34094cfa9abe1f0f14f48f490772db7a775559f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/b42a2f66e8f1b15ccf25652c3424265923eb4f17",
-                "reference": "b42a2f66e8f1b15ccf25652c3424265923eb4f17",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/34094cfa9abe1f0f14f48f490772db7a775559f2",
+                "reference": "34094cfa9abe1f0f14f48f490772db7a775559f2",
                 "shasum": ""
             },
             "require": {
@@ -874,7 +929,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.12-dev"
+                    "dev-master": "1.14-dev"
                 }
             },
             "autoload": {
@@ -908,33 +963,39 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-08-06T08:03:45+00:00"
+            "time": "2020-01-13T11:15:53+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v2.6.1",
+            "version": "v4.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "2a7dcf7e3e02dc5e701004e51a6f304b713107d5"
+                "reference": "32bd5ca5a4170f88e27073353013d210a3354ae9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/2a7dcf7e3e02dc5e701004e51a6f304b713107d5",
-                "reference": "2a7dcf7e3e02dc5e701004e51a6f304b713107d5",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/32bd5ca5a4170f88e27073353013d210a3354ae9",
+                "reference": "32bd5ca5a4170f88e27073353013d210a3354ae9",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.9",
+                "php": "^5.5.9 || ^7.0",
+                "phpoption/phpoption": "^1.7.2",
                 "symfony/polyfill-ctype": "^1.9"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8.35 || ^5.0"
+                "bamarni/composer-bin-plugin": "^1.3",
+                "ext-filter": "*",
+                "phpunit/phpunit": "^4.8.35 || ^5.0 || ^6.0 || ^7.0"
+            },
+            "suggest": {
+                "ext-filter": "Required to use the boolean validator."
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.6-dev"
+                    "dev-master": "4.1-dev"
                 }
             },
             "autoload": {
@@ -948,9 +1009,14 @@
             ],
             "authors": [
                 {
+                    "name": "Graham Campbell",
+                    "email": "graham@alt-three.com",
+                    "homepage": "https://gjcampbell.co.uk/"
+                },
+                {
                     "name": "Vance Lucas",
                     "email": "vance@vancelucas.com",
-                    "homepage": "http://www.vancelucas.com"
+                    "homepage": "https://vancelucas.com/"
                 }
             ],
             "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
@@ -959,7 +1025,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2019-01-29T11:11:52+00:00"
+            "time": "2020-03-01T23:56:01+00:00"
         },
         {
             "name": "vlucas/valitron",
@@ -1012,31 +1078,29 @@
         },
         {
             "name": "webmozart/assert",
-            "version": "1.5.0",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webmozart/assert.git",
-                "reference": "88e6d84706d09a236046d686bbea96f07b3a34f4"
+                "reference": "aed98a490f9a8f78468232db345ab9cf606cf598"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/88e6d84706d09a236046d686bbea96f07b3a34f4",
-                "reference": "88e6d84706d09a236046d686bbea96f07b3a34f4",
+                "url": "https://api.github.com/repos/webmozart/assert/zipball/aed98a490f9a8f78468232db345ab9cf606cf598",
+                "reference": "aed98a490f9a8f78468232db345ab9cf606cf598",
                 "shasum": ""
             },
             "require": {
                 "php": "^5.3.3 || ^7.0",
                 "symfony/polyfill-ctype": "^1.8"
             },
+            "conflict": {
+                "vimeo/psalm": "<3.6.0"
+            },
             "require-dev": {
                 "phpunit/phpunit": "^4.8.36 || ^7.5.13"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.3-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Webmozart\\Assert\\": "src/"
@@ -1058,7 +1122,7 @@
                 "check",
                 "validate"
             ],
-            "time": "2019-08-24T08:43:50+00:00"
+            "time": "2020-02-14T12:15:55+00:00"
         },
         {
             "name": "zendframework/zend-config",
@@ -1118,6 +1182,7 @@
                 "config",
                 "zf"
             ],
+            "abandoned": "laminas/laminas-config",
             "time": "2019-06-08T18:58:54+00:00"
         },
         {
@@ -1175,6 +1240,7 @@
                 "file",
                 "zf"
             ],
+            "abandoned": "laminas/laminas-file",
             "time": "2019-02-06T16:53:31+00:00"
         },
         {
@@ -1221,6 +1287,7 @@
                 "stdlib",
                 "zf"
             ],
+            "abandoned": "laminas/laminas-stdlib",
             "time": "2018-08-28T21:34:05+00:00"
         }
     ],
