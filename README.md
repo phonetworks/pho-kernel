@@ -11,7 +11,7 @@ A simple microkernel implementation with Twitter-like functionality by default. 
 The default pho-kernel requires:
 
 * [Redis server 4.0+](https://redis.io)
-* [PHP 7.1+](https://php.net)
+* [PHP 7.2+](https://php.net)
 * [Composer](https://getcomposer.org/) latest version
 
 You may also test pho-kernel by using [Vagrant](https://www.vagrantup.com/). Check out "Testing" for more information.
